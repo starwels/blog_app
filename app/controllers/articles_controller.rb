@@ -11,6 +11,9 @@ class ArticlesController < ApplicationController
   	if @article.save
   		flash[:notice] = "Article has been created"
   		redirect_to articles_path
+    else
+      flash.now[:danger] = "Article has not been created"
+      render new_article_path
   	end
   end
 
