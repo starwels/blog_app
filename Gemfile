@@ -11,7 +11,7 @@ gem 'sqlite3'
 gem 'puma', '~> 3.7'
 gem 'bootstrap-sass', '~>3.3.6'
 gem 'sass-rails', '~> 5.0'
-gem 'autoprefixer-rails', '~>6.3.7' #gem to postprocess css and add vendor tools
+gem 'autoprefixer-rails', '7.1.1' #gem to postprocess css and add vendor tools
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
