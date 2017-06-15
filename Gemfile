@@ -22,7 +22,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
-group :text do
+group :test do
   gem 'capybara', '2.7.1'
 end
 
